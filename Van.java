@@ -1,4 +1,4 @@
-public class Van extends Car{
+public class Van extends Transport{
     private int numberOfSeats;
 
     public int getNumberOfSeats() {
@@ -12,5 +12,10 @@ public class Van extends Car{
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+
+    @Override
+    public void drive() {
+        System.out.println("vannnnnnnvannnnvannnn");
     }
 }
