@@ -4,4 +4,8 @@ public class Car {
     public void drive(){
         System.out.println("Vroom vroom");
     }
+
+    public void stop(){
+        System.out.println("Skrrrrrrrrrrt");
+    }
 }
